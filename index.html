@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Stopwatch & Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>⏱️ Dynamic Stopwatch & Clock</h1>
+            <button id="theme-toggle">🌙</button>
+        </div>
+
+        <!-- Display -->
+        <div class="time-display">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button id="start" class="animated-btn">Start</button>
+            <button id="split" class="animated-btn" disabled>Split</button>
+            <button id="reset" class="animated-btn" disabled>Reset</button>
+        </div>
+
+        <!-- Mode Toggle -->
+        <div class="mode-toggle">
+            <button id="stopwatch-mode" class="mode-btn active">Stopwatch</button>
+            <button id="clock-mode" class="mode-btn">Clock</button>
+        </div>
+
+        <!-- Split Records -->
+        <div class="splits">
+            <h2>Lap Records</h2>
+            <ul id="split-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
