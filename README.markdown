@@ -45,9 +45,6 @@ A versatile, user-friendly web application combining a stopwatch and clock with 
 - **JavaScript**: Logic for time tracking, mode switching, and DOM updates.
 - **Font**: Poppins (via Google Fonts) for a modern look.
 
-## Screenshots
-*(Add screenshots here, e.g., stopwatch running, clock mode, dark mode)*
-
 ## Contributing
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
@@ -61,7 +58,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 - Inspired by classic stopwatch and clock apps.
 - Thanks to [Google Fonts](https://fonts.google.com) for the Poppins font.
-- Built with love by [Your Name].
+- Built with love by Soham roy chowdhury
 
 ---
 Feel free to star ⭐ this repository if you find it useful!
